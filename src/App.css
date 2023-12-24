@@ -6,7 +6,24 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.cardContainer{
+  display: flex;
+}
+.card{
+  border: 1px solid;
+  border-radius: 10px;
+  height: 126px;
+  width: 194px;
+margin: 10px;
+}
+.graphContainer{
+  position: absolute;
+  right: 55px;
+}
+.servoControl{
+  position: absolute;
+  bottom: 0px;
+}
 .header{
   height: 10vh;
   border: 1px solid gray;
